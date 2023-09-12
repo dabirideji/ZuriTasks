@@ -11,7 +11,7 @@ $currentDayOfWeek = date('l');
 $currentUtcTime = gmdate('H:i:s');
 
 // GitHub repository information
-$githubFileUrl = 'https://github.com/yourusername/yourrepository/blob/main/path/to/your/file.php';
+$githubFileUrl = 'https://github.com/dabirideji/ZuriTasks/blob/fcce9952cfa31d97ae2280c35d0be22b7d1061cb/Index.php';
 $githubRepoUrl = 'https://github.com/dabirideji/ZuriTasks';
 
 // Check if slack_name and track parameters are provided
@@ -38,4 +38,4 @@ if ($slackName === null || $track === null) {
 header('Content-Type: application/json');
 
 // Output the JSON response
-echo json_encode($response);
+echo json_encode($response,JSON_PRETTY_PRINT);
