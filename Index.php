@@ -39,3 +39,6 @@ header('Content-Type: application/json');
 
 // Output the JSON response
 echo json_encode($response,JSON_PRETTY_PRINT);
+
+echo "hello";
+?>
