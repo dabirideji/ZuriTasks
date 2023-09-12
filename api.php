@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $currentUtcTime = date('Y-m-d\TH:i:s\Z');
 
     // GitHub repository information
-    $githubFileUrl = 'https://github.com/dabirideji/ZuriTasks/blob/fcce9952cfa31d97ae2280c35d0be22b7d1061cb/Index.php';
+    $githubFileUrl = 'https://github.com/dabirideji/ZuriTasks/blob/main/api.php';
     $githubRepoUrl = 'https://github.com/dabirideji/ZuriTasks';
 
     // Check if slack_name and track parameters are provided
