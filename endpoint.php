@@ -12,7 +12,7 @@ $currentUtcTime = gmdate('H:i:s');
 
 // GitHub repository information
 $githubFileUrl = 'https://github.com/yourusername/yourrepository/blob/main/path/to/your/file.php';
-$githubRepoUrl = 'https://github.com/yourusername/yourrepository';
+$githubRepoUrl = 'https://github.com/dabirideji/ZuriTasks';
 
 // Check if slack_name and track parameters are provided
 if ($slackName === null || $track === null) {
@@ -31,6 +31,7 @@ if ($slackName === null || $track === null) {
         "github_repo_url" => $githubRepoUrl,
         "status_code" => 200
     ];
+    http_response_code(200);
 }
 
 // Set the Content-Type header to JSON
